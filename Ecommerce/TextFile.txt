@@ -1,0 +1,10 @@
+﻿config iniciais
+
+- git config --global user.name "luribas"
+- git config --global user.email "lu.ribas6@gmail.com"
+
+
+criar repos local (navegar ate a pasta do proj)
+
+- git init 
+- git status
