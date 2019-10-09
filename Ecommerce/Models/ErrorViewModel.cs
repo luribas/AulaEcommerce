@@ -7,5 +7,11 @@ namespace Ecommerce.Models
         public string RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+        // testando modificacao no git
+        public ErrorViewModel()
+        {
+           
+        }
     }
 }

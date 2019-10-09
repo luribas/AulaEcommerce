@@ -1,10 +1,25 @@
-﻿config iniciais
+﻿GIT BASH
 
+config iniciais
 - git config --global user.name "luribas"
 - git config --global user.email "lu.ribas6@gmail.com"
 
 
 criar repos local (navegar ate a pasta do proj)
-
 - git init 
 - git status
+
+add os arquivos para o monitoramente do git
+- git add *
+
+criar um commit no repos
+- git commit -m "[descricao commit]"
+
+configurar pra onde vai o repos (apenas na primeira vez)
+- git remote add origin https://github.com/[USER]/[REPOS].git
+
+enviar o commit para o repos remoto
+- git push -u origin master
+
+remover credenciais 
+iniciar windowr: credenciais
